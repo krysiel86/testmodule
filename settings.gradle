@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "testmodule"
+rootProject.name = "testModule2"
 include ':app'
 include ':mylibrary'

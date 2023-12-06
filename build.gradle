@@ -51,6 +51,12 @@
 //apply from: "${rootDir}/scripts/publish-module.gradle"
 //apply from: 'publish.gradle'
 
+buildscript {
+    dependencies {
+        classpath 'io.github.gradle-nexus:publish-plugin:1.1.0'
+    }
+}
+
 
 plugins {
     id 'com.android.application'                  version '7.4.2'   apply false
@@ -63,6 +69,6 @@ plugins {
 apply from: "${rootDir}/scripts/publish-root.gradle"
 apply from: 'publish.gradle'
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+//task clean(type: Delete) {
+//    delete rootProject.buildDir
+//}

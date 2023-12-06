@@ -10,7 +10,7 @@ task androidSourcesJar(type: Jar) {
     } else {
         // For pure Kotlin libraries, in case you have them
         from sourceSets.main.java.srcDirs
-//        from sourceSets.main.kotlin.srcDirs
+        from sourceSets.main.kotlin.srcDirs
     }
 }
 
