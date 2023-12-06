@@ -1,0 +1,31 @@
+//ext {
+//    PUBLISH_GROUP_ID = 'io.github.krysiel86'
+//    PUBLISH_VERSION = '0.0.1'
+//    PUBLISH_ARTIFACT_ID = 'mylibrary'
+//    PUBLISH_DESCRIPTION = 'Test AutoMock Library'
+//    PUBLISH_URL = 'https://github.com/krysiel86/testmodule'
+//    PUBLISH_LICENSE_NAME = 'GNU License'
+//    PUBLISH_LICENSE_URL = 'https://github.com/Mkrysiel86/testmodule/blob/master/LICENSE'
+//    PUBLISH_DEVELOPER_ID = 'krysiel86'
+//    PUBLISH_DEVELOPER_NAME = 'MyoungIn Kye'
+//    PUBLISH_DEVELOPER_EMAIL = 'krysiel86@gmail.com'
+//    PUBLISH_SCM_CONNECTION = 'scm:git:github.com/krysiel86/testmodule.git'
+//    PUBLISH_SCM_DEVELOPER_CONNECTION = 'scm:git:ssh://github.com:krysiel86/testmodule.git'
+//    PUBLISH_SCM_URL = 'https://github.com/krysiel86/testmodule/tree/master'
+//}
+
+
+ext {
+    PUBLISH_DESCRIPTION = 'Android library for selecting date and time from BottomSheet UI.'
+    PUBLISH_URL = 'https://github.com/krysiel86/testmodule'
+    PUBLISH_LICENSE_NAME = 'Apache License 2.0'
+    PUBLISH_LICENSE_URL = 'https://github.com/krysiel86/testmodule/blob/main/LICENSE'
+
+    PUBLISH_DEVELOPER_ID = 'krysiel'
+    PUBLISH_DEVELOPER_NAME = 'MyoungIn Kye'
+    PUBLISH_DEVELOPER_EMAIL = 'krysiel86@gmail.com'
+
+    PUBLISH_SCM_CONNECTION = 'scm:git:github.com/krysiel86/testmodule.git'
+    PUBLISH_SCM_DEVELOPER_CONNECTION = 'scm:git:ssh://github.com:krysiel86/testmodule.git'
+    PUBLISH_SCM_URL = 'https://github.com/krysiel86/testmodule/tree/main'
+}
