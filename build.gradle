@@ -1,55 +1,3 @@
-//// Top-level build file where you can add configuration options common to all sub-projects/modules.
-//plugins {
-//    id 'com.android.application' version '8.1.0' apply false
-//    id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
-//    id 'com.android.library' version '8.1.0' apply false
-//
-//    id'io.github.gradle-nexus.publish-plugin' version '1.0.0'
-//
-//}
-//
-////def properties = gradleLocalProperties(rootDir)
-////def userMap = [
-////        "ossrhUsername": properties.getProperty("ossrhUsername"),
-////        "ossrhPassword": properties.getProperty("ossrhPassword"),
-////        "sonatypeStagingProfileId": properties.getProperty("sonatypeStagingProfileId")
-////]
-////
-////def userMap = [
-////        "ossrhUsername": project.properties.getProperty("ossrhUsername"),
-////        "ossrhPassword": project.properties.getProperty("ossrhPassword"),
-////        "sonatypeStagingProfileId": project.properties.getProperty("sonatypeStagingProfileId")
-////]
-////nexusPublishing {
-////    repositories {
-////        sonatype {
-////            stagingProfileId = userMap["sonatypeStagingProfileId"]
-////            username = userMap["ossrhUsername"]
-////            password = userMap["ossrhPassword"]
-////            nexusUrl = uri("https://s01.oss.sonatype.org/service/local/")
-////            snapshotRepositoryUrl = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
-////        }
-////    }
-////}
-//
-//
-////# 추가해야 하는 빌드 스크립트
-//buildscript {
-//    dependencies {
-//        classpath "io.github.gradle-nexus:publish-plugin:1.1.0"
-//    }
-//}
-//
-////# 기존에 존재하는 플러그인 설정
-//plugins {
-//    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-//    id 'java'
-//}
-//
-////# 추가해야 하는 플러그인 설정
-//apply plugin: 'io.github.gradle-nexus.publish-plugin'
-//apply from: "${rootDir}/scripts/publish-module.gradle"
-//apply from: 'publish.gradle'
 
 buildscript {
     dependencies {
@@ -63,8 +11,9 @@ plugins {
     id 'com.android.library'                      version '7.4.2'   apply false
     id 'org.jetbrains.kotlin.android'             version '1.7.10'  apply false
     id 'org.jetbrains.dokka'                      version '1.7.0'   apply true
-    id 'io.github.gradle-nexus.publish-plugin'    version '1.1.0'   apply true
 }
+
+apply plugin: 'io.github.gradle-nexus.publish-plugin'
 
 apply from: "${rootDir}/scripts/publish-root.gradle"
 apply from: 'publish.gradle'
@@ -72,3 +21,8 @@ apply from: 'publish.gradle'
 //task clean(type: Delete) {
 //    delete rootProject.buildDir
 //}
+ext["signing.keyId"] = '53BC2625'
+ext["signing.password"] = 'xlvldpadps'
+ext["signing.secretKeyRingFile"] = '/Users/mac/API_Key/secring.gpg'
+
+//signing.secretKeyRingFile='/Users/mac/API_Key/secring.gpg'
