@@ -4,11 +4,12 @@ plugins {
 }
 
 android {
-    namespace 'com.krysiel.mylibrary'
-    compileSdk 34
+//    namespace 'com.krysiel.mylibrary'
+    namespace 'io.github.krysiel86'
+    compileSdk 33
 
     defaultConfig {
-        minSdk 29
+        minSdk 23
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -16,8 +17,13 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+            // 라이브러리 패키지에 아래 규칙이 함께 포함됩니다.
+//            consumerProguardFile 'proguard-rules.pro'
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
         }
     }
     compileOptions {
@@ -29,27 +35,27 @@ android {
     }
 }
 
-
-def getVersion() {
-    def versionPropsFile = rootProject.file("version.properties")
-    if (versionPropsFile.exists()) {
-
-        def versionProps = new Properties()
-        versionProps.load(new FileInputStream(versionPropsFile))
-
-        return hasProperty('versionName') ? versionName : versionProps['VERSION_NAME']
-//    } else {
-//        throw new GradleException("Not found library version.")
-    }
-}
-
 ext {
-    PUBLISH_GROUP_ID = 'com.krysiel.mylibrary'
-    PUBLISH_VERSION = getVersion()
+    PUBLISH_GROUP_ID = 'io.github.krysiel86'
+    PUBLISH_VERSION = '1.0.9'
     PUBLISH_ARTIFACT_ID = 'mylibrary'
+    PUBLISH_DESCRIPTION = 'mylibrary Android SDK'
+    PUBLISH_URL = 'https://github.com/krysiel86/testmodule'
+    PUBLISH_LICENSE_NAME = 'Apache License'
+    PUBLISH_LICENSE_URL =
+            'https://github.com/krysiel86/testmodule/blob/master/LICENSE'
+    PUBLISH_DEVELOPER_ID = 'krysiel'
+    PUBLISH_DEVELOPER_NAME = 'MyoungIn Kye'
+    PUBLISH_DEVELOPER_EMAIL = 'krysiel86@email.com'
+    PUBLISH_SCM_CONNECTION =
+            'scm:git:github.com/krysiel86/testmodule.git'
+    PUBLISH_SCM_DEVELOPER_CONNECTION =
+            'scm:git:ssh://github.com/krysiel86/testmodule.git'
+    PUBLISH_SCM_URL =
+            'https://github.com/krysiel86/testmodule/tree/master'
 }
 
-apply from: "${rootDir}/scripts/publish-module.gradle"
+apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
 
 dependencies {
 

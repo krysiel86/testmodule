@@ -1,4 +1,4 @@
-package com.krysiel.mylibrary
+package io.github.krysiel86.mylibrary
 
 import org.junit.Test
 

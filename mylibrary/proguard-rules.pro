@@ -19,3 +19,19 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+
+# 축소(minification) 설정
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+
+# 난독화(obfuscation) 설정
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile
+
+# 라이브러리 보존 설정
+-keep class io.github.krysiel86.** { *; }
+-keep interface io.github.krysiel86.** { *; }

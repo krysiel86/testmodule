@@ -1,4 +1,4 @@
-package com.krysiel.mylibrary
+package io.github.krysiel86.mylibrary
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.krysiel.mylibrary.test", appContext.packageName)
+        assertEquals("io.github.krysiel86.test", appContext.packageName)
     }
 }

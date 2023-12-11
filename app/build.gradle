@@ -11,10 +11,10 @@ android {
 
     defaultConfig {
         applicationId "com.krysiel.testmodule"
-        minSdk 28
-        targetSdk 33
+        minSdk 29
+        targetSdk 34
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -34,28 +34,6 @@ android {
     }
 }
 
-//
-//def getVersion() {
-//    def versionPropsFile = rootProject.file("version.properties")
-//    if (versionPropsFile.exists()) {
-//
-//        def versionProps = new Properties()
-//        versionProps.load(new FileInputStream(versionPropsFile))
-//
-//        return hasProperty('versionName') ? versionName : versionProps['VERSION_NAME']
-//    } else {
-//        throw new GradleException("Not found library version.")
-//    }
-//}
-//
-//ext {
-//    PUBLISH_GROUP_ID = 'com.krysiel.mylibrary'
-//    PUBLISH_VERSION = getVersion()
-//    PUBLISH_ARTIFACT_ID = 'mylibrary'
-//}
-//
-//apply from: "${rootDir}/scripts/publish-module.gradle"
-
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.9.0'
@@ -64,4 +42,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation project(':mylibrary')
+
 }
