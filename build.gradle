@@ -26,3 +26,17 @@ ext["signing.password"] = 'xlvldpadps'
 ext["signing.secretKeyRingFile"] = '/Users/mac/API_Key/secring.gpg'
 
 //signing.secretKeyRingFile='/Users/mac/API_Key/secring.gpg'
+
+
+ext {
+    prebidSdkVersionName = "2.1.8"
+    prebidSdkMinVersion = 16
+    prebidSdkTargetVersion = 33
+    prebidSdkCompileVersion = 33
+    prebidSdkBuildToolsVersion = "30.0.3"
+
+    artifactGroupId = "org.prebid"
+    artifactFolder = "${buildDir}/generated-artifacts"
+    omSdkVersion = "1.4.1"
+    omSdkModuleName = "omsdk-android"
+}
