@@ -37,7 +37,7 @@ android {
 
 ext {
     PUBLISH_GROUP_ID = 'io.github.krysiel86'
-    PUBLISH_VERSION = '1.1.8'
+    PUBLISH_VERSION = '1.1.9'
     PUBLISH_ARTIFACT_ID = 'mylibrary'
     PUBLISH_DESCRIPTION = 'mylibrary Android SDK'
     PUBLISH_URL = 'https://github.com/krysiel86/testmodule'
@@ -67,6 +67,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
 //    implementation files('libs/omsdk-android-1.4.1.aar') // 특정 AAR 파일 추가
+    implementation 'ai.meson.sdk:meson-omsdk:1.4.4.0'
 
     implementation 'com.google.android.gms:play-services-ads:22.5.0'
     implementation 'com.google.android.gms:play-services-base:18.1.0'
