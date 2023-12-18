@@ -47,3 +47,13 @@
 -keep class io.github.krysiel86.TestLog {
 
 }
+
+-keep class io.github.krysiel86.mobile.** {
+    *;
+}
+
+-keep class io.github.krysiel86.mobile.api.** {
+    *;
+}
+
+
