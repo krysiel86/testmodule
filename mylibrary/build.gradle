@@ -37,7 +37,7 @@ android {
 
 ext {
     PUBLISH_GROUP_ID = 'io.github.krysiel86'
-    PUBLISH_VERSION = '1.2.2'
+    PUBLISH_VERSION = '1.2.3'
     PUBLISH_ARTIFACT_ID = 'mylibrary'
     PUBLISH_DESCRIPTION = 'mylibrary Android SDK'
     PUBLISH_URL = 'https://github.com/krysiel86/testmodule'

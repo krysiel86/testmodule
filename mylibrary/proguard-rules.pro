@@ -48,10 +48,12 @@
 
 }
 
--keep class io.github.krysiel86.mobile.* {
+-keep class io.github.krysiel86.mobile.** {
     *;
 }
 
-#-keep class io.github.krysiel86.mobile.api.* {
-#    *;
-#}
+-keep class io.github.krysiel86.mobile.api.** {
+    *;
+}
+
+
