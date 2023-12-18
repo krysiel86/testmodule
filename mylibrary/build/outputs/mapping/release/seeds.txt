@@ -1,0 +1,113 @@
+io.github.krysiel86.R$color
+io.github.krysiel86.TestLog
+io.github.krysiel86.R$attr
+io.github.krysiel86.Krysiel
+io.github.krysiel86.R
+io.github.krysiel86.R$menu
+io.github.krysiel86.R$style
+io.github.krysiel86.R$id
+io.github.krysiel86.R$layout
+io.github.krysiel86.R$bool
+io.github.krysiel86.R$string
+io.github.krysiel86.R$styleable
+io.github.krysiel86.R$dimen
+io.github.krysiel86.R$drawable
+io.github.krysiel86.R$mipmap
+io.github.krysiel86.R$drawable: int ic_volume_off
+io.github.krysiel86.R$id: int loader_progress
+io.github.krysiel86.R$drawable: int drw_button_rounded_outlined
+io.github.krysiel86.R$string: int reward
+io.github.krysiel86.R$style: int Theme_Suezxandroidsdksource
+io.github.krysiel86.R$layout: int lyt_countdown_circle_overlay
+io.github.krysiel86.R$drawable: int drw_timer_circle
+io.github.krysiel86.R$mipmap: int ic_launcher_round
+io.github.krysiel86.R$string: int inventory_id_interstitial
+io.github.krysiel86.R$drawable: int prebid_ic_close_interstitial
+io.github.krysiel86.R$id: int surface
+io.github.krysiel86.R$id: int view_progress_text
+io.github.krysiel86.R$id: int lblCountdown
+io.github.krysiel86.R$string: int webview
+io.github.krysiel86.R$id: int web_view_banner
+io.github.krysiel86.R$styleable: int[] BannerView
+io.github.krysiel86.R$layout: int lyt_close
+io.github.krysiel86.R$styleable: int BannerView_adHeight
+io.github.krysiel86.R$color: int white
+io.github.krysiel86.R$drawable: int ic_launcher_background
+io.github.krysiel86.R$attr: int adHeight
+io.github.krysiel86.R$id: int action_settings
+io.github.krysiel86.R$drawable: int prebid_ic_back_active
+io.github.krysiel86.R$mipmap: int ic_launcher
+io.github.krysiel86.R$bool: int prebid_is_tablet
+io.github.krysiel86.R$string: int action_settings
+io.github.krysiel86.R$string: int aaa
+io.github.krysiel86.R$id: int view_progress_bar
+io.github.krysiel86.R$attr: int configId
+io.github.krysiel86.R$drawable: int prebid_ic_forth_active
+io.github.krysiel86.R$layout: int lyt_call_to_action
+io.github.krysiel86.R$style: int FullScreenDialogTheme
+io.github.krysiel86.R$string: int load
+io.github.krysiel86.R$drawable: int ic_launcher_foreground
+io.github.krysiel86.R$string: int app_name
+io.github.krysiel86.R$dimen: int activity_horizontal_margin
+io.github.krysiel86.R$id: int skip
+io.github.krysiel86.R$id: int lytCountdown
+io.github.krysiel86.R$id: int Progress
+io.github.krysiel86.R$string: int inventory_id_banner_320x50
+io.github.krysiel86.R$color: int black
+io.github.krysiel86.R$drawable: int prebid_ic_close_browser
+io.github.krysiel86.R$style: int AppBaseTheme
+io.github.krysiel86.R$color: int purple_700
+io.github.krysiel86.R$id: int iv_sound_interstitial
+io.github.krysiel86.R$style: int AppTheme
+io.github.krysiel86.R$drawable: int ic_volume_on
+io.github.krysiel86.R$id: int player
+io.github.krysiel86.R$styleable: int BannerView_refreshIntervalSec
+io.github.krysiel86.R$id: int iv_close_interstitial
+io.github.krysiel86.R$dimen: int banner_height
+io.github.krysiel86.R$layout: int pubnative_player_count_down
+io.github.krysiel86.R$id: int endImage
+io.github.krysiel86.R$id: int rl_count_down
+io.github.krysiel86.R$color: int purple_500
+io.github.krysiel86.R$layout: int lyt_watch_again
+io.github.krysiel86.R$menu: int menu_main
+io.github.krysiel86.R$id: int count_down
+io.github.krysiel86.R$id: int loader_text
+io.github.krysiel86.R$dimen: int activity_vertical_margin
+io.github.krysiel86.R$color: int teal_700
+io.github.krysiel86.R$attr: int adWidth
+io.github.krysiel86.R$drawable: int prebid_ic_back_inactive
+io.github.krysiel86.R$color: int teal_200
+io.github.krysiel86.R$id: int closeButton
+io.github.krysiel86.R$attr: int refreshIntervalSec
+io.github.krysiel86.R$layout: int lyt_sound
+io.github.krysiel86.R$id: int mute
+io.github.krysiel86.R$string: int publisher_id
+io.github.krysiel86.R$id: int iv_skip
+io.github.krysiel86.R$drawable: int prebid_ic_refresh
+io.github.krysiel86.R$styleable: int BannerView_adWidth
+io.github.krysiel86.R$drawable: int prebid_ic_media_next
+io.github.krysiel86.R$id: int loader
+io.github.krysiel86.R$id: int tv_learn_more
+io.github.krysiel86.R$color: int purple_200
+io.github.krysiel86.R$drawable: int prebid_ic_forth_inactive
+io.github.krysiel86.R$id: int btn_watch_again
+io.github.krysiel86.R$styleable: int BannerView_configId
+io.github.krysiel86.R$layout: int pubnative_player
+io.github.krysiel86.R$drawable: int prebid_ic_open_in_browser
+io.github.krysiel86.R$layout: int lyt_skip
+io.github.krysiel86.R$string: R$string()
+io.github.krysiel86.R$menu: R$menu()
+io.github.krysiel86.R$bool: R$bool()
+io.github.krysiel86.R$mipmap: R$mipmap()
+io.github.krysiel86.Krysiel: void krysielTest()
+io.github.krysiel86.Krysiel: Krysiel()
+io.github.krysiel86.R$id: R$id()
+io.github.krysiel86.R$dimen: R$dimen()
+io.github.krysiel86.TestLog: TestLog()
+io.github.krysiel86.R$attr: R$attr()
+io.github.krysiel86.R$styleable: R$styleable()
+io.github.krysiel86.R: R()
+io.github.krysiel86.R$style: R$style()
+io.github.krysiel86.R$color: R$color()
+io.github.krysiel86.R$layout: R$layout()
+io.github.krysiel86.R$drawable: R$drawable()

@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.krysiel86",
+    "module": "mylibrary",
+    "version": "1.1.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mylibrary-1.1.9.aar",
+          "url": "mylibrary-1.1.9.aar",
+          "size": 145416,
+          "sha512": "34227b86d3815009232138cf474d53aa1e7be049ed7514ad31849d8728c39b99ad2ee26cdd40c3f40f52d19e39d3215af0cfee5c0ee2884b4f5fb2d66a444a74",
+          "sha256": "340eaa5e5e3f4aaa9a032bc1efdb9910018668c3848d9cd034e8adacfdd1c977",
+          "sha1": "7fbd2959ea18ba8ae08b62210c510bc8938977c7",
+          "md5": "ca832885898a92128aff247162985690"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ai.meson.sdk",
+          "module": "meson-omsdk",
+          "version": {
+            "requires": "1.4.4.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "22.5.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.15.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mylibrary-1.1.9.aar",
+          "url": "mylibrary-1.1.9.aar",
+          "size": 145416,
+          "sha512": "34227b86d3815009232138cf474d53aa1e7be049ed7514ad31849d8728c39b99ad2ee26cdd40c3f40f52d19e39d3215af0cfee5c0ee2884b4f5fb2d66a444a74",
+          "sha256": "340eaa5e5e3f4aaa9a032bc1efdb9910018668c3848d9cd034e8adacfdd1c977",
+          "sha1": "7fbd2959ea18ba8ae08b62210c510bc8938977c7",
+          "md5": "ca832885898a92128aff247162985690"
+        }
+      ]
+    }
+  ]
+}

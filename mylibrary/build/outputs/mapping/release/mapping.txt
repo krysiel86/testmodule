@@ -1,0 +1,17 @@
+# compiler: R8
+# compiler_version: 4.0.52
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: b29b60d
+# pg_map_hash: SHA-256 b29b60d0250059ea24f01175129192087ad217e244de02d37c432dd4fc8228ff
+io.github.krysiel86.Krysiel -> io.github.krysiel86.Krysiel:
+    java.lang.String testA -> a
+    java.lang.String testB -> b
+    io.github.krysiel86.TestLog testLog -> c
+    1:8:void <init>():5:12 -> <init>
+    1:5:void krysielTest():26:30 -> krysielTest
+    6:6:void abc(java.lang.String):21:21 -> krysielTest
+    6:6:void krysielTest():30 -> krysielTest
+    7:7:void krysielTest():31:31 -> krysielTest
+io.github.krysiel86.TestLog -> io.github.krysiel86.TestLog:
+    1:1:void <init>():5:5 -> <init>
